@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.character:hover {
+    cursor: pointer;
+}
+
+#char-container {
+    img {
+        width: 60%;
+    }
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}

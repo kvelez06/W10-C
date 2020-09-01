@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.character:hover {
+  cursor: pointer;
+}
+
+#char-container {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#char-container img {
+  width: 60%;
+}
+/*# sourceMappingURL=style.css.map */
